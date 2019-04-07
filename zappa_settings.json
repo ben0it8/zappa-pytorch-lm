@@ -1,0 +1,17 @@
+{
+    "dev": {
+        "slim_handler": true,
+        "app_function": "generate.app",
+        "aws_region": "eu-central-1",
+        "profile_name": "default",
+        "project_name": "deploy-poetry",
+        "runtime": "python3.7",
+        "log_level": "DEBUG",
+        "keep_warm": false,
+        "memory_size": 128,
+        "timeout_seconds": 60,
+        "http_methods": ["GET"],
+        "use_precompiled_packages": true,
+        "s3_bucket": "poetry-day"
+    }
+}

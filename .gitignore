@@ -1,0 +1,4 @@
+/models/*
+/env/*
+*.tar.gz
+*.zip
